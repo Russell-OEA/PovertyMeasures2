@@ -1,0 +1,566 @@
+CODE,COUSUB,Muni,County,MRI_Rank,LMI_60_Percent,LMI_51_Percent,Drinking_threshold,Clean_threshold,OBC_threshold
+0101,00100,Absecon city,Atlantic,118,No,No,No,Yes,Yes
+0102,02080,Atlantic City city,Atlantic,3,Yes,Yes,Yes,Yes,Yes
+0104,08680,Buena borough,Atlantic,47,No,No,Yes,Yes,Yes
+0105,08710,Buena Vista township,Atlantic,51,No,No,No,Yes,Yes
+0107,20350,Egg Harbor City city,Atlantic,16,No,No,Yes,Yes,Yes
+0108,20290,Egg Harbor township,Atlantic,132,No,No,No,Yes,Yes
+0111,25560,Galloway township,Atlantic,169,No,No,No,Yes,Yes
+0112,29280,Hamilton township,Atlantic,102,No,No,No,Yes,Yes
+0118,52950,Northfield city,Atlantic,197,No,No,No,Yes,Yes
+0119,59640,Pleasantville city,Atlantic,14,No,Yes,Yes,Yes,Yes
+0121,68430,Somers Point city,Atlantic,75,No,No,No,Yes,Yes
+0122,75620,Ventnor City city,Atlantic,94,No,No,No,Yes,Yes
+0203,05170,Bergenfield borough,Bergen,287,No,No,No,No,Yes
+0206,13570,Cliffside Park borough,Bergen,215,No,No,No,Yes,Yes
+0212,19510,East Rutherford borough,Bergen,212,No,No,No,Yes,Yes
+0211,21300,Elmwood Park borough,Bergen,171,No,No,No,Yes,Yes
+0215,21480,Englewood city,Bergen,191,No,No,No,Yes,Yes
+0218,22560,Fairview borough,Bergen,81,No,No,No,Yes,Yes
+0219,24420,Fort Lee borough,Bergen,322,No,No,No,Yes,Yes
+0221,25770,Garfield city,Bergen,62,Yes,Yes,No,Yes,Yes
+0223,28680,Hackensack city,Bergen,122,No,No,No,Yes,Yes
+0225,30420,Hasbrouck Heights borough,Bergen,280,No,No,No,Yes,Yes
+0230,40680,Little Ferry borough,Bergen,164,No,No,No,Yes,Yes
+0231,41100,Lodi borough,Bergen,96,No,Yes,No,Yes,Yes
+0232,42090,Lyndhurst township,Bergen,229,No,No,No,Yes,Yes
+0233,42750,Mahwah township,Bergen,426,No,No,No,No,Yes
+0234,44880,Maywood borough,Bergen,282,No,No,No,Yes,Yes
+0237,47700,Moonachie borough,Bergen,159,No,No,No,Yes,Yes
+0238,51660,New Milford borough,Bergen,336,No,No,No,Yes,Yes
+0239,52320,North Arlington borough,Bergen,208,No,No,No,Yes,Yes
+0245,55770,Palisades Park borough,Bergen,233,No,No,No,Yes,Yes
+0249,62910,Ridgefield borough,Bergen,259,No,No,No,Yes,Yes
+0257,65340,Saddle Brook township,Bergen,303,No,No,No,Yes,Yes
+0260,72360,Teaneck township,Bergen,351,No,No,No,Yes,Yes
+0264,76400,Waldwick borough,Bergen,448,No,No,No,No,Yes
+0269,82570,Wood-Ridge borough,Bergen,464,No,No,No,No,Yes
+0302,05740,Beverly city,Burlington,28,No,Yes,Yes,Yes,Yes
+0305,08920,Burlington city,Burlington,70,No,No,No,Yes,Yes
+0306,08950,Burlington township,Burlington,254,No,No,No,Yes,Yes
+0312,20050,Edgewater Park township,Burlington,109,No,No,No,Yes,Yes
+0315,23850,Florence township,Burlington,264,No,No,No,Yes,Yes
+0317,42060,Lumberton township,Burlington,226,No,No,No,Yes,Yes
+0319,43740,Maple Shade township,Burlington,175,No,No,No,Yes,Yes
+0323,48900,Mount Holly township,Burlington,61,No,No,No,Yes,Yes
+0326,53070,North Hanover township,Burlington,234,No,No,No,Yes,Yes
+0327,55800,Palmyra borough,Burlington,179,No,No,No,Yes,Yes
+0329,57510,Pemberton township,Burlington,104,No,No,No,Yes,Yes
+0330,63510,Riverside township,Burlington,103,No,Yes,No,Yes,Yes
+0333,68610,Southampton township,Burlington,220,No,No,No,Yes,Yes
+0338,81440,Willingboro township,Burlington,107,No,No,No,Yes,Yes
+0340,82960,Wrightstown borough,Burlington,74,Yes,Yes,Yes,Yes,Yes
+0404,04750,Bellmawr borough,Camden,73,No,Yes,No,Yes,Yes
+0405,05440,Berlin borough,Camden,301,No,No,No,Yes,Yes
+0406,05470,Berlin township,Camden,95,No,No,No,Yes,Yes
+0408,10000,Camden city,Camden,1,Yes,Yes,Yes,Yes,Yes
+0409,12280,Cherry Hill township,Camden,347,No,No,No,Yes,Yes
+0410,12550,Chesilhurst borough,Camden,40,No,No,No,Yes,Yes
+0411,13420,Clementon borough,Camden,33,No,No,Yes,Yes,Yes
+0412,14260,Collingswood borough,Camden,230,No,No,No,Yes,Yes
+0414,26760,Gloucester City city,Camden,50,No,No,No,Yes,Yes
+0415,26820,Gloucester township,Camden,202,No,No,No,Yes,Yes
+0419,32220,Hi-Nella borough,Camden,99,Yes,Yes,Yes,Yes,Yes
+0421,39420,Lawnside borough,Camden,52,No,No,No,Yes,Yes
+0422,40440,Lindenwold borough,Camden,42,Yes,Yes,Yes,Yes,Yes
+0423,42630,Magnolia borough,Camden,121,No,No,No,Yes,Yes
+0427,57660,Pennsauken township,Camden,55,No,No,No,Yes,Yes
+0428,58770,Pine Hill borough,Camden,78,No,No,No,Yes,Yes
+0431,68340,Somerdale borough,Camden,149,No,No,No,Yes,Yes
+0432,71220,Stratford borough,Camden,182,No,No,No,Yes,Yes
+0434,76220,Voorhees township,Camden,273,No,No,No,Yes,Yes
+0436,81740,Winslow township,Camden,108,No,No,No,Yes,Yes
+0437,82450,Woodlynne borough,Camden,15,Yes,Yes,Yes,Yes,Yes
+0502,10270,Cape May city,Cape May,87,No,No,No,Yes,Yes
+0503,10330,Cape May Point borough,Cape May,183,No,No,No,Yes,Yes
+0505,41610,Lower township,Cape May,82,No,No,No,Yes,Yes
+0506,45810,Middle township,Cape May,63,No,No,No,Yes,Yes
+0507,53490,North Wildwood city,Cape May,45,No,Yes,Yes,Yes,Yes
+0508,54360,Ocean City city,Cape May,277,No,No,No,Yes,Yes
+0514,81170,Wildwood city,Cape May,8,Yes,Yes,Yes,Yes,Yes
+0515,81200,Wildwood Crest borough,Cape May,65,No,No,No,Yes,Yes
+0516,81890,Woodbine borough,Cape May,7,Yes,Yes,Yes,Yes,Yes
+0601,07600,Bridgeton city,Cumberland,5,Yes,Yes,Yes,Yes,Yes
+0602,14710,Commercial township,Cumberland,27,No,No,Yes,Yes,Yes
+0603,16900,Deerfield township,Cumberland,88,No,No,No,Yes,Yes
+0605,22350,Fairfield township,Cumberland,35,No,No,No,Yes,Yes
+0608,39450,Lawrence township,Cumberland,38,No,No,No,Yes,Yes
+0610,46680,Millville city,Cumberland,31,No,No,No,Yes,Yes
+0613,74870,Upper Deerfield township,Cumberland,101,No,No,No,Yes,Yes
+0614,76070,Vineland city,Cumberland,39,No,No,No,Yes,Yes
+0701,04695,Belleville township,Essex,117,No,No,No,Yes,Yes
+0702,06260,Bloomfield township,Essex,206,No,No,No,Yes,Yes
+0717,13045,City of Orange township,Essex,21,Yes,Yes,Yes,Yes,Yes
+0705,19390,East Orange city,Essex,24,Yes,Yes,Yes,Yes,Yes
+0709,34450,Irvington township,Essex,26,Yes,Yes,Yes,Yes,Yes
+0711,43800,Maplewood township,Essex,434,No,No,No,No,Yes
+0712,46380,Millburn township,Essex,562,No,No,No,Yes,Yes
+0713,47500,Montclair township,Essex,379,No,No,No,No,Yes
+0714,51000,Newark city,Essex,12,Yes,Yes,Yes,Yes,Yes
+0716,53680,Nutley township,Essex,345,No,No,No,Yes,Yes
+0719,69274,South Orange Village township,Essex,396,No,No,No,No,Yes
+0722,79800,West Orange township,Essex,302,No,No,No,No,Yes
+0801,13360,Clayton borough,Gloucester,97,No,No,No,Yes,Yes
+0802,17710,Deptford township,Gloucester,170,No,No,No,Yes,Yes
+0804,21060,Elk township,Gloucester,181,No,No,No,Yes,Yes
+0805,24840,Franklin township,Gloucester,155,No,No,No,Yes,Yes
+0806,26340,Glassboro borough,Gloucester,67,No,No,No,Yes,Yes
+0811,47250,Monroe township,Gloucester,203,No,No,No,Yes,Yes
+0814,57150,Paulsboro borough,Gloucester,20,Yes,Yes,Yes,Yes,Yes
+0815,59070,Pitman borough,Gloucester,167,No,No,No,Yes,Yes
+0818,77180,Washington township,Gloucester,326,No,No,No,Yes,Yes
+0820,78800,West Deptford township,Gloucester,225,No,No,No,Yes,Yes
+0821,80120,Westville borough,Gloucester,43,No,No,Yes,Yes,Yes
+0822,82120,Woodbury city,Gloucester,34,No,No,No,Yes,Yes
+0901,03580,Bayonne city,Hudson,83,No,Yes,No,Yes,Yes
+0902,19360,East Newark borough,Hudson,56,No,Yes,No,Yes,Yes
+0903,28650,Guttenberg town,Hudson,84,No,Yes,No,Yes,Yes
+0904,30210,Harrison town,Hudson,162,No,Yes,No,Yes,Yes
+0905,32250,Hoboken city,Hudson,445,No,No,No,No,Yes
+0906,36000,Jersey City city,Hudson,77,No,Yes,No,Yes,Yes
+0907,36510,Kearny town,Hudson,91,No,No,No,Yes,Yes
+0908,52470,North Bergen township,Hudson,76,No,Yes,No,Yes,Yes
+0909,66570,Secaucus town,Hudson,382,No,No,No,No,Yes
+0910,74630,Union City city,Hudson,25,Yes,Yes,Yes,Yes,Yes
+0911,77930,Weehawken township,Hudson,332,No,No,No,No,Yes
+0912,79610,West New York town,Hudson,36,Yes,Yes,No,Yes,Yes
+1009,23700,Flemington borough,Hunterdon,41,No,Yes,No,Yes,Yes
+1101,19780,East Windsor township,Mercer,265,No,No,No,Yes,Yes
+1102,22185,Ewing township,Mercer,195,No,No,No,Yes,Yes
+1103,29310,Hamilton township,Mercer,228,No,No,No,Yes,Yes
+1104,31620,Hightstown borough,Mercer,166,No,No,No,Yes,Yes
+1107,39510,Lawrence township,Mercer,368,No,No,No,Yes,Yes
+1114,60900,Princeton borough,Mercer,462,No,No,No,No,Yes
+1111,74000,Trenton city,Mercer,6,Yes,Yes,Yes,Yes,Yes
+1201,10750,Carteret borough,Middlesex,105,No,No,No,Yes,Yes
+1203,18490,Dunellen borough,Middlesex,192,No,No,No,Yes,Yes
+1204,19000,East Brunswick township,Middlesex,370,No,No,No,Yes,Yes
+1205,20230,Edison township,Middlesex,344,No,No,No,Yes,Yes
+1207,31470,Highland Park borough,Middlesex,252,No,No,No,Yes,Yes
+1210,45690,Metuchen borough,Middlesex,463,No,No,No,No,Yes
+1211,45900,Middlesex borough,Middlesex,207,No,No,No,Yes,Yes
+1213,47280,Monroe township,Middlesex,323,No,No,No,No,Yes
+1214,51210,New Brunswick city,Middlesex,17,Yes,Yes,Yes,Yes,Yes
+1215,52560,North Brunswick township,Middlesex,232,No,No,No,No,Yes
+1216,58200,Perth Amboy city,Middlesex,19,Yes,Yes,Yes,Yes,Yes
+1217,59010,Piscataway township,Middlesex,281,No,No,No,No,Yes
+1219,65790,Sayreville borough,Middlesex,247,No,No,No,Yes,Yes
+1223,69420,South River borough,Middlesex,125,No,No,No,Yes,Yes
+1225,82000,Woodbridge township,Middlesex,260,No,No,No,Yes,Yes
+1304,02110,Atlantic Highlands borough,Monmouth,386,No,No,No,Yes,Yes
+1307,06970,Bradley Beach borough,Monmouth,174,No,No,No,Yes,Yes
+1308,07750,Brielle borough,Monmouth,513,No,No,No,Yes,Yes
+1310,16660,Deal borough,Monmouth,136,No,No,No,Yes,Yes
+1312,21570,Englishtown borough,Monmouth,295,No,No,No,No,Yes
+1315,25200,Freehold borough,Monmouth,49,No,Yes,No,Yes,Yes
+1316,25230,Freehold township,Monmouth,366,No,No,No,Yes,Yes
+1318,32640,Holmdel township,Monmouth,468,No,No,No,Yes,Yes
+1319,33300,Howell township,Monmouth,361,No,No,No,No,Yes
+1323,40770,Little Silver borough,Monmouth,557,No,No,No,Yes,Yes
+1324,41010,Loch Arbour village,Monmouth,435,No,No,No,Yes,Yes
+1327,43050,Manasquan borough,Monmouth,499,No,No,No,Yes,Yes
+1328,44070,Marlboro township,Monmouth,521,No,No,No,Yes,Yes
+1336,73020,Tinton Falls borough,Monmouth,316,No,No,No,Yes,Yes
+1335,49890,Neptune City borough,Monmouth,98,No,No,No,Yes,Yes
+1337,54270,Ocean township,Monmouth,299,No,No,No,Yes,Yes
+1339,30690,Hazlet township,Monmouth,293,No,No,No,Yes,Yes
+1350,74540,Union Beach borough,Monmouth,127,No,No,No,Yes,Yes
+1401,06610,Boonton town,Morris,276,No,No,No,Yes,Yes
+1409,18070,Dover town,Morris,89,No,Yes,No,Yes,Yes
+1424,48300,Morristown town,Morris,262,No,No,No,No,Yes
+1426,49080,Mount Arlington borough,Morris,315,No,No,No,Yes,Yes
+1427,48480,Mount Olive township,Morris,294,No,No,No,Yes,Yes
+1431,58110,Pequannock township,Morris,384,No,No,No,Yes,Yes
+1432,61890,Randolph township,Morris,455,No,No,No,Yes,Yes
+1436,64980,Roxbury township,Morris,371,No,No,No,Yes,Yes
+1437,75890,Victory Gardens borough,Morris,69,Yes,Yes,No,Yes,Yes
+1439,80390,Wharton borough,Morris,110,No,Yes,No,Yes,Yes
+1501,03130,Barnegat Light borough,Ocean,450,No,No,No,Yes,Yes
+1506,07420,Brick township,Ocean,257,No,No,No,Yes,Yes
+1507,73125,Toms River township,Ocean,236,No,No,No,Yes,Yes
+1512,37380,Lacey township,Ocean,284,No,No,No,Yes,Yes
+1513,37770,Lakehurst borough,Ocean,111,No,No,No,Yes,Yes
+1514,38550,Lakewood township,Ocean,58,Yes,Yes,Yes,Yes,Yes
+1515,39390,Lavallette borough,Ocean,329,No,No,No,Yes,Yes
+1517,41250,Long Beach township,Ocean,373,No,No,No,Yes,Yes
+1518,43140,Manchester township,Ocean,114,No,Yes,Yes,Yes,Yes
+1519,43380,Mantoloking borough,Ocean,473,No,No,No,Yes,Yes
+1522,58590,Pine Beach borough,Ocean,327,No,No,No,No,Yes
+1527,66480,Seaside Park borough,Ocean,312,No,No,No,Yes,Yes
+1531,71640,Surf City borough,Ocean,307,No,No,No,Yes,Yes
+1508,18670,Eagleswood township,Ocean,196,No,No,No,Yes,Yes
+1533,03050,Barnegat township,Ocean,198,No,No,No,Yes,Yes
+1602,13690,Clifton city,Passaic,123,No,No,No,Yes,Yes
+1603,29070,Haledon borough,Passaic,66,No,No,No,Yes,Yes
+1604,30570,Hawthorne borough,Passaic,275,No,No,No,Yes,Yes
+1607,56550,Passaic city,Passaic,10,Yes,Yes,Yes,Yes,Yes
+1608,57000,Paterson city,Passaic,9,Yes,Yes,Yes,Yes,Yes
+1610,61170,Prospect Park borough,Passaic,22,Yes,Yes,Yes,Yes,Yes
+1612,73140,Totowa borough,Passaic,283,No,No,No,Yes,Yes
+1614,77840,Wayne township,Passaic,408,No,No,No,Yes,Yes
+1616,82423,Woodland Park borough,Passaic,163,No,No,No,Yes,Yes
+1702,21240,Elmer borough,Salem,112,No,No,No,Yes,Yes
+1708,57870,Pennsville township,Salem,100,No,No,No,Yes,Yes
+1709,58530,Pilesgrove township,Salem,310,No,No,No,Yes,Yes
+1713,10610,Carneys Point township,Salem,37,No,No,No,Yes,Yes
+1715,82720,Woodstown borough,Salem,168,No,No,No,Yes,Yes
+1804,06790,Bound Brook borough,Somerset,116,No,Yes,No,Yes,Yes
+1808,24900,Franklin township,Somerset,314,No,No,No,No,Yes
+1811,43620,Manville borough,Somerset,137,No,No,No,Yes,Yes
+1814,53280,North Plainfield borough,Somerset,134,No,No,No,Yes,Yes
+1906,24930,Franklin borough,Sussex,126,No,No,No,Yes,Yes
+1914,47430,Montague township,Sussex,190,No,No,No,Yes,Yes
+1915,51930,Newton town,Sussex,113,No,No,No,Yes,Yes
+1921,71670,Sussex borough,Sussex,48,Yes,Yes,No,Yes,Yes
+2004,21000,Elizabeth city,Union,29,Yes,Yes,Yes,Yes,Yes
+2007,31980,Hillside township,Union,133,No,No,No,Yes,Yes
+2008,36690,Kenilworth borough,Union,242,No,No,No,No,Yes
+2009,40350,Linden city,Union,128,No,No,No,Yes,Yes
+2012,59190,Plainfield city,Union,30,Yes,Yes,No,Yes,Yes
+2013,61530,Rahway city,Union,177,No,No,No,Yes,Yes
+2014,64620,Roselle borough,Union,92,No,Yes,No,Yes,Yes
+2019,74480,Union township,Union,255,No,No,No,Yes,Yes
+2103,04990,Belvidere town,Warren,72,No,No,No,Yes,Yes
+2108,28710,Hackettstown town,Warren,152,No,No,No,Yes,Yes
+2115,41490,Lopatcong township,Warren,271,No,No,No,Yes,Yes
+2119,58350,Phillipsburg town,Warren,32,Yes,Yes,No,Yes,Yes
+2121,77270,Washington borough,Warren,120,No,No,No,Yes,Yes
+0103,07810,Brigantine city,Atlantic,201,No,No,No,Yes,No
+0106,15160,Corbin City city,Atlantic,199,No,No,No,Yes,No
+0109,21870,Estell Manor city,Atlantic,213,No,No,No,Yes,No
+0110,23940,Folsom borough,Atlantic,140,No,No,No,Yes,No
+0113,29430,Hammonton town,Atlantic,85,No,No,No,Yes,No
+0114,40530,Linwood city,Atlantic,354,No,No,No,Yes,No
+0115,41370,Longport borough,Atlantic,507,No,No,No,Yes,No
+0116,43890,Margate City city,Atlantic,328,No,No,No,Yes,No
+0117,49410,Mullica township,Atlantic,135,No,No,No,Yes,No
+0120,60600,Port Republic city,Atlantic,272,No,No,No,Yes,No
+0123,80330,Weymouth township,Atlantic,187,No,No,No,Yes,No
+0201,00700,Allendale borough,Bergen,544,No,No,No,No,No
+0202,01090,Alpine borough,Bergen,466,No,No,No,Yes,No
+0204,06490,Bogota borough,Bergen,245,No,No,No,No,No
+0205,10480,Carlstadt borough,Bergen,221,No,No,No,Yes,No
+0207,13810,Closter borough,Bergen,504,No,No,No,No,No
+0208,15820,Cresskill borough,Bergen,508,No,No,No,No,No
+0209,17530,Demarest borough,Bergen,524,No,No,No,Yes,No
+0210,18400,Dumont borough,Bergen,343,No,No,No,Yes,No
+0213,20020,Edgewater borough,Bergen,489,No,No,No,No,No
+0214,21450,Emerson borough,Bergen,452,No,No,No,No,No
+0216,21510,Englewood Cliffs borough,Bergen,516,No,No,No,Yes,No
+0217,22470,Fair Lawn borough,Bergen,394,No,No,No,Yes,No
+0220,24990,Franklin Lakes borough,Bergen,554,No,No,No,No,No
+0222,26640,Glen Rock borough,Bergen,549,No,No,No,Yes,No
+0224,30150,Harrington Park borough,Bergen,459,No,No,No,Yes,No
+0226,30540,Haworth borough,Bergen,547,No,No,No,Yes,No
+0227,31920,Hillsdale borough,Bergen,430,No,No,No,Yes,No
+0228,32310,Ho-Ho-Kus borough,Bergen,563,No,No,No,Yes,No
+0229,40020,Leonia borough,Bergen,376,No,No,No,Yes,No
+0235,46110,Midland Park borough,Bergen,446,No,No,No,Yes,No
+0236,47610,Montvale borough,Bergen,523,No,No,No,No,No
+0240,53430,Northvale borough,Bergen,412,No,No,No,No,No
+0241,53610,Norwood borough,Bergen,418,No,No,No,Yes,No
+0242,53850,Oakland borough,Bergen,456,No,No,No,Yes,No
+0243,54870,Old Tappan borough,Bergen,522,No,No,No,No,No
+0244,54990,Oradell borough,Bergen,509,No,No,No,No,No
+0246,55950,Paramus borough,Bergen,414,No,No,No,Yes,No
+0247,56130,Park Ridge borough,Bergen,477,No,No,No,Yes,No
+0248,61680,Ramsey borough,Bergen,525,No,No,No,No,No
+0250,62940,Ridgefield Park village,Bergen,223,No,No,No,Yes,No
+0251,63000,Ridgewood village,Bergen,541,No,No,No,Yes,No
+0252,63360,River Edge borough,Bergen,420,No,No,No,Yes,No
+0253,63690,River Vale township,Bergen,498,No,No,No,No,No
+0254,63990,Rochelle Park township,Bergen,209,No,No,No,Yes,No
+0255,64170,Rockleigh borough,Bergen,501,No,No,No,No,No
+0256,65280,Rutherford borough,Bergen,392,No,No,No,Yes,No
+0258,65400,Saddle River borough,Bergen,560,No,No,No,Yes,No
+0259,68970,South Hackensack township,Bergen,154,No,No,No,Yes,No
+0261,72420,Tenafly borough,Bergen,536,No,No,No,Yes,No
+0262,72480,Teterboro borough,Bergen,60,Yes,Yes,Yes,Yes,No
+0263,75140,Upper Saddle River borough,Bergen,534,No,No,No,Yes,No
+0265,76490,Wallington borough,Bergen,160,No,No,No,Yes,No
+0266,77135,Washington township,Bergen,503,No,No,No,Yes,No
+0267,80270,Westwood borough,Bergen,349,No,No,No,Yes,No
+0268,82300,Woodcliff Lake borough,Bergen,548,No,No,No,No,No
+0270,83050,Wyckoff township,Bergen,539,No,No,No,Yes,No
+0301,03370,Bass River township,Burlington,54,No,No,No,Yes,No
+0303,06670,Bordentown city,Burlington,248,No,No,No,Yes,No
+0304,06700,Bordentown township,Burlington,369,No,No,No,No,No
+0307,12670,Chesterfield township,Burlington,419,No,No,No,Yes,No
+0308,12940,Cinnaminson township,Burlington,427,No,No,No,No,No
+0309,17080,Delanco township,Burlington,266,No,No,No,Yes,No
+0310,17440,Delran township,Burlington,288,No,No,No,Yes,No
+0311,18790,Eastampton township,Burlington,290,No,No,No,Yes,No
+0313,22110,Evesham township,Burlington,403,No,No,No,Yes,No
+0314,23250,Fieldsboro borough,Burlington,267,No,No,No,Yes,No
+0316,29010,Hainesport township,Burlington,381,No,No,No,Yes,No
+0318,43290,Mansfield township,Burlington,405,No,No,No,No,No
+0320,45120,Medford township,Burlington,469,No,No,No,Yes,No
+0321,45210,Medford Lakes borough,Burlington,465,No,No,No,Yes,No
+0322,47880,Moorestown township,Burlington,487,No,No,No,Yes,No
+0324,49020,Mount Laurel township,Burlington,385,No,No,No,Yes,No
+0325,51510,New Hanover township,Burlington,148,No,No,No,Yes,No
+0328,57480,Pemberton borough,Burlington,53,No,No,No,Yes,No
+0331,63660,Riverton borough,Burlington,372,No,No,No,Yes,No
+0332,66810,Shamong township,Burlington,395,No,No,No,Yes,No
+0334,69990,Springfield township,Burlington,340,No,No,No,Yes,No
+0335,72060,Tabernacle township,Burlington,330,No,No,No,Yes,No
+0336,77150,Washington township,Burlington,188,No,No,No,Yes,No
+0337,78200,Westampton township,Burlington,393,No,No,No,Yes,No
+0339,82420,Woodland township,Burlington,139,No,No,No,Yes,No
+0401,02200,Audubon borough,Camden,320,No,No,No,Yes,No
+0402,02230,Audubon Park borough,Camden,93,No,Yes,Yes,Yes,No
+0403,03250,Barrington borough,Camden,218,No,No,No,Yes,No
+0407,08170,Brooklawn borough,Camden,59,No,No,No,Yes,No
+0413,26070,Gibbsboro borough,Camden,286,No,No,No,Yes,No
+0416,28740,Haddon township,Camden,374,No,No,No,Yes,No
+0417,28770,Haddonfield borough,Camden,538,No,No,No,Yes,No
+0418,28800,Haddon Heights borough,Camden,380,No,No,No,Yes,No
+0420,39210,Laurel Springs borough,Camden,238,No,No,No,Yes,No
+0424,45510,Merchantville borough,Camden,172,No,No,No,Yes,No
+0425,48750,Mount Ephraim borough,Camden,153,No,No,No,Yes,No
+0426,53880,Oaklyn borough,Camden,185,No,No,No,Yes,No
+0429,58920,Pine Valley borough,Camden,11,No,No,No,Yes,No
+0430,65160,Runnemede borough,Camden,131,No,No,No,Yes,No
+0433,72240,Tavistock borough,Camden,565,No,No,No,Yes,No
+0435,77630,Waterford township,Camden,250,No,No,No,Yes,No
+0501,02320,Avalon borough,Cape May,472,No,No,No,Yes,No
+0504,17560,Dennis township,Cape May,143,No,No,No,Yes,No
+0509,66390,Sea Isle City city,Cape May,296,No,No,No,Yes,No
+0510,71010,Stone Harbor borough,Cape May,495,No,No,No,Yes,No
+0511,74810,Upper township,Cape May,319,No,No,No,Yes,No
+0512,78530,West Cape May borough,Cape May,224,No,Yes,No,Yes,No
+0513,80210,West Wildwood borough,Cape May,44,No,No,No,Yes,No
+0604,18220,Downe township,Cumberland,64,No,No,Yes,Yes,No
+0606,28170,Greenwich township,Cumberland,205,No,No,No,Yes,No
+0607,33120,Hopewell township,Cumberland,216,No,No,No,Yes,No
+0609,44580,Maurice River township,Cumberland,46,No,No,No,Yes,No
+0611,67020,Shiloh borough,Cumberland,79,No,No,No,Yes,No
+0612,71160,Stow Creek township,Cumberland,157,No,No,No,Yes,No
+0703,09250,Caldwell borough,Essex,335,No,No,No,No,No
+0704,11200,Cedar Grove township,Essex,457,No,No,No,Yes,No
+0706,21840,Essex Fells borough,Essex,561,No,No,No,Yes,No
+0707,22385,Fairfield township,Essex,438,No,No,No,Yes,No
+0708,26610,Glen Ridge borough,Essex,555,No,No,No,Yes,No
+0710,40890,Livingston township,Essex,535,No,No,No,No,No
+0715,52620,North Caldwell borough,Essex,559,No,No,No,No,No
+0718,64590,Roseland borough,Essex,478,No,No,No,Yes,No
+0720,75815,Verona township,Essex,476,No,No,No,Yes,No
+0721,78510,West Caldwell township,Essex,467,No,No,No,Yes,No
+0803,19180,East Greenwich township,Gloucester,482,No,No,No,No,No
+0807,28185,Greenwich township,Gloucester,147,No,No,No,Yes,No
+0808,30180,Harrison township,Gloucester,512,No,No,No,No,No
+0809,41160,Logan township,Gloucester,407,No,No,No,Yes,No
+0810,43440,Mantua township,Gloucester,285,No,No,No,Yes,No
+0812,49680,National Park borough,Gloucester,106,No,No,No,Yes,No
+0813,51390,Newfield borough,Gloucester,161,No,No,No,Yes,No
+0816,69030,South Harrison township,Gloucester,333,No,No,No,Yes,No
+0817,71850,Swedesboro borough,Gloucester,71,No,No,No,Yes,No
+0819,78110,Wenonah borough,Gloucester,421,No,No,No,Yes,No
+0823,82180,Woodbury Heights borough,Gloucester,246,No,No,No,Yes,No
+0824,82840,Woolwich township,Gloucester,514,No,No,No,No,No
+1001,00550,Alexandria township,Hunterdon,439,No,No,No,Yes,No
+1002,05650,Bethlehem township,Hunterdon,493,No,No,No,Yes,No
+1003,06370,Bloomsbury borough,Hunterdon,231,No,No,No,Yes,No
+1004,09280,Califon borough,Hunterdon,437,No,No,No,Yes,No
+1005,13720,Clinton town,Hunterdon,377,No,No,No,Yes,No
+1006,13750,Clinton township,Hunterdon,443,No,No,No,Yes,No
+1007,17170,Delaware township,Hunterdon,400,No,No,No,Yes,No
+1008,18820,East Amwell township,Hunterdon,422,No,No,No,Yes,No
+1010,24870,Franklin township,Hunterdon,474,No,No,No,No,No
+1011,25350,Frenchtown borough,Hunterdon,176,No,No,No,Yes,No
+1012,26550,Glen Gardner borough,Hunterdon,258,No,No,No,Yes,No
+1013,29460,Hampton borough,Hunterdon,144,No,No,No,Yes,No
+1014,31320,High Bridge borough,Hunterdon,150,No,No,No,Yes,No
+1015,32460,Holland township,Hunterdon,383,No,No,No,Yes,No
+1016,37065,Kingwood township,Hunterdon,375,No,No,No,Yes,No
+1017,38610,Lambertville city,Hunterdon,279,No,No,No,Yes,No
+1018,39630,Lebanon borough,Hunterdon,410,No,No,No,No,No
+1019,39660,Lebanon township,Hunterdon,411,No,No,No,Yes,No
+1020,46260,Milford borough,Hunterdon,237,No,No,No,Yes,No
+1021,61920,Raritan township,Hunterdon,453,No,No,No,Yes,No
+1022,62250,Readington township,Hunterdon,458,No,No,No,Yes,No
+1023,70980,Stockton borough,Hunterdon,367,No,No,No,Yes,No
+1024,72510,Tewksbury township,Hunterdon,500,No,No,No,Yes,No
+1025,74420,Union township,Hunterdon,346,No,No,No,Yes,No
+1026,78230,West Amwell township,Hunterdon,364,No,No,No,Yes,No
+1105,33150,Hopewell borough,Mercer,447,No,No,No,Yes,No
+1106,33180,Hopewell township,Mercer,484,No,No,No,No,No
+1108,57600,Pennington borough,Mercer,532,No,No,No,Yes,No
+1112,63850,Robbinsville township,Mercer,537,No,No,No,No,No
+1113,80240,West Windsor township,Mercer,550,No,No,No,No,No
+1202,15550,Cranbury township,Middlesex,546,No,No,No,No,No
+1206,30840,Helmetta borough,Middlesex,308,No,No,No,Yes,No
+1208,34890,Jamesburg borough,Middlesex,194,No,No,No,Yes,No
+1212,46620,Milltown borough,Middlesex,339,No,No,No,Yes,No
+1209,54705,Old Bridge township,Middlesex,311,No,No,No,Yes,No
+1218,59280,Plainsboro township,Middlesex,451,No,No,No,Yes,No
+1220,68550,South Amboy city,Middlesex,204,No,No,No,Yes,No
+1221,68790,South Brunswick township,Middlesex,436,No,No,No,No,No
+1222,69390,South Plainfield borough,Middlesex,357,No,No,No,No,No
+1224,69810,Spotswood borough,Middlesex,241,No,No,No,Yes,No
+1330,00070,Aberdeen township,Monmouth,389,No,No,No,No,No
+1301,00730,Allenhurst borough,Monmouth,510,No,No,No,Yes,No
+1302,00760,Allentown borough,Monmouth,440,No,No,No,Yes,No
+1303,01960,Asbury Park city,Monmouth,23,Yes,Yes,Yes,Yes,No
+1305,02440,Avon-by-the-Sea borough,Monmouth,365,No,No,No,Yes,No
+1306,04930,Belmar borough,Monmouth,214,No,No,No,Yes,No
+1309,14560,Colts Neck township,Monmouth,527,No,No,No,Yes,No
+1311,19840,Eatontown borough,Monmouth,146,No,No,No,Yes,No
+1313,22440,Fair Haven borough,Monmouth,540,No,No,No,Yes,No
+1314,22950,Farmingdale borough,Monmouth,68,No,No,No,Yes,No
+1317,31500,Highlands borough,Monmouth,156,No,No,No,Yes,No
+1320,34200,Interlaken borough,Monmouth,431,No,No,No,Yes,No
+1321,36480,Keansburg borough,Monmouth,18,No,Yes,Yes,Yes,No
+1322,36810,Keyport borough,Monmouth,119,No,No,No,Yes,No
+1325,41310,Long Branch city,Monmouth,57,Yes,Yes,No,Yes,No
+1326,42990,Manalapan township,Monmouth,442,No,No,No,No,No
+1329,44520,Matawan borough,Monmouth,300,No,No,No,Yes,No
+1331,45990,Middletown township,Monmouth,409,No,No,No,Yes,No
+1332,46560,Millstone township,Monmouth,502,No,No,No,Yes,No
+1333,47130,Monmouth Beach borough,Monmouth,519,No,No,No,Yes,No
+1334,49920,Neptune township,Monmouth,141,No,No,No,Yes,No
+1338,54570,Oceanport borough,Monmouth,278,No,No,No,Yes,No
+1340,62430,Red Bank borough,Monmouth,124,No,Yes,No,Yes,No
+1341,64410,Roosevelt borough,Monmouth,378,No,No,No,Yes,No
+1342,65130,Rumson borough,Monmouth,556,No,No,No,Yes,No
+1343,66240,Sea Bright borough,Monmouth,416,No,No,No,Yes,No
+1344,66330,Sea Girt borough,Monmouth,542,No,No,No,Yes,No
+1345,67350,Shrewsbury borough,Monmouth,533,No,No,No,No,No
+1346,67365,Shrewsbury township,Monmouth,178,No,Yes,No,Yes,No
+1347,37560,Lake Como borough,Monmouth,193,No,No,No,Yes,No
+1348,70110,Spring Lake borough,Monmouth,401,No,No,No,Yes,No
+1349,70140,Spring Lake Heights borough,Monmouth,399,No,No,No,Yes,No
+1351,74900,Upper Freehold township,Monmouth,483,No,No,No,No,No
+1352,76460,Wall township,Monmouth,397,No,No,No,Yes,No
+1353,79310,West Long Branch borough,Monmouth,317,No,No,No,Yes,No
+1402,06640,Boonton township,Morris,471,No,No,No,Yes,No
+1403,09040,Butler borough,Morris,355,No,No,No,Yes,No
+1404,12100,Chatham borough,Morris,558,No,No,No,Yes,No
+1405,12130,Chatham township,Morris,551,No,No,No,Yes,No
+1406,12580,Chester borough,Morris,342,No,No,No,Yes,No
+1407,12610,Chester township,Morris,543,No,No,No,Yes,No
+1408,17650,Denville township,Morris,432,No,No,No,Yes,No
+1410,19210,East Hanover township,Morris,429,No,No,No,Yes,No
+1411,23910,Florham Park borough,Morris,444,No,No,No,Yes,No
+1412,29550,Hanover township,Morris,460,No,No,No,No,No
+1413,29700,Harding township,Morris,511,No,No,No,Yes,No
+1414,34980,Jefferson township,Morris,331,No,No,No,Yes,No
+1415,37110,Kinnelon borough,Morris,505,No,No,No,Yes,No
+1416,40290,Lincoln Park borough,Morris,337,No,No,No,Yes,No
+1430,41362,Long Hill township,Morris,496,No,No,No,Yes,No
+1417,42510,Madison borough,Morris,490,No,No,No,No,No
+1418,45330,Mendham borough,Morris,520,No,No,No,Yes,No
+1419,45360,Mendham township,Morris,553,No,No,No,Yes,No
+1420,46860,Mine Hill township,Morris,222,No,No,No,Yes,No
+1421,47670,Montville township,Morris,485,No,No,No,Yes,No
+1422,48210,Morris township,Morris,486,No,No,No,Yes,No
+1423,48090,Morris Plains borough,Morris,491,No,No,No,No,No
+1425,48690,Mountain Lakes borough,Morris,564,No,No,No,Yes,No
+1428,50130,Netcong borough,Morris,115,No,No,No,Yes,No
+1429,56460,Parsippany-Troy Hills township,Morris,353,No,No,No,Yes,No
+1433,63300,Riverdale borough,Morris,449,No,No,No,No,No
+1434,64050,Rockaway borough,Morris,387,No,No,No,Yes,No
+1435,64080,Rockaway township,Morris,423,No,No,No,No,No
+1438,77240,Washington township,Morris,494,No,No,No,Yes,No
+1502,03520,Bay Head borough,Ocean,492,No,No,No,Yes,No
+1503,03940,Beach Haven borough,Ocean,391,No,No,No,Yes,No
+1504,04180,Beachwood borough,Ocean,184,No,No,No,Yes,No
+1505,05305,Berkeley township,Ocean,138,No,No,No,Yes,No
+1509,30390,Harvey Cedars borough,Ocean,470,No,No,No,Yes,No
+1510,34530,Island Heights borough,Ocean,404,No,No,No,Yes,No
+1511,34680,Jackson township,Ocean,350,No,No,No,No,No
+1516,40560,Little Egg Harbor township,Ocean,180,No,No,No,Yes,No
+1521,54450,Ocean Gate borough,Ocean,90,No,No,No,Yes,No
+1520,54300,Ocean township,Ocean,219,No,No,No,Yes,No
+1523,59790,Plumsted township,Ocean,306,No,No,No,No,No
+1524,59910,Point Pleasant borough,Ocean,402,No,No,No,Yes,No
+1525,59880,Point Pleasant Beach borough,Ocean,348,No,No,No,Yes,No
+1526,66450,Seaside Heights borough,Ocean,13,Yes,Yes,No,Yes,No
+1528,67110,Ship Bottom borough,Ocean,390,No,No,No,Yes,No
+1529,69510,South Toms River borough,Ocean,80,No,Yes,No,Yes,No
+1530,70320,Stafford township,Ocean,261,No,No,No,Yes,No
+1532,74210,Tuckerton borough,Ocean,200,No,No,No,Yes,No
+1601,06340,Bloomingdale borough,Passaic,235,No,No,No,No,No
+1605,40620,Little Falls township,Passaic,358,No,No,No,No,No
+1606,53040,North Haledon borough,Passaic,360,No,No,No,Yes,No
+1609,60090,Pompton Lakes borough,Passaic,274,No,No,No,Yes,No
+1611,63150,Ringwood borough,Passaic,417,No,No,No,Yes,No
+1613,76730,Wanaque borough,Passaic,289,No,No,No,No,No
+1615,79460,West Milford township,Passaic,338,No,No,No,No,No
+1801,04450,Bedminster township,Somerset,433,No,No,No,Yes,No
+1802,05560,Bernards township,Somerset,515,No,No,No,No,No
+1803,05590,Bernardsville borough,Somerset,526,No,No,No,Yes,No
+1805,07180,Branchburg township,Somerset,518,No,No,No,Yes,No
+1806,07720,Bridgewater township,Somerset,441,No,No,No,Yes,No
+1807,22890,Far Hills borough,Somerset,480,No,No,No,Yes,No
+1809,27510,Green Brook township,Somerset,454,No,No,No,Yes,No
+1810,31890,Hillsborough township,Somerset,475,No,No,No,No,No
+1812,46590,Millstone borough,Somerset,424,No,No,No,Yes,No
+1813,47580,Montgomery township,Somerset,552,No,No,No,No,No
+1815,57300,Peapack and Gladstone borough,Somerset,479,No,No,No,Yes,No
+1816,61980,Raritan borough,Somerset,263,No,No,No,Yes,No
+1817,64320,Rocky Hill borough,Somerset,428,No,No,No,Yes,No
+1818,68460,Somerville borough,Somerset,158,No,No,No,Yes,No
+1819,68730,South Bound Brook borough,Somerset,217,No,No,No,Yes,No
+1820,76940,Warren township,Somerset,530,No,No,No,No,No
+1821,77600,Watchung borough,Somerset,506,No,No,No,No,No
+1701,00880,Alloway township,Salem,249,No,No,No,Yes,No
+1703,21330,Elsinboro township,Salem,129,No,No,No,Yes,No
+1704,41640,Lower Alloways Creek township,Salem,291,No,No,No,Yes,No
+1705,43200,Mannington township,Salem,145,No,No,No,Yes,No
+1706,54810,Oldmans township,Salem,151,No,No,No,Yes,No
+1707,57750,Penns Grove borough,Salem,4,Yes,Yes,Yes,Yes,No
+1710,59130,Pittsgrove township,Salem,186,No,No,No,Yes,No
+1711,61470,Quinton township,Salem,130,No,No,No,Yes,No
+1712,65490,Salem city,Salem,2,Yes,Yes,Yes,Yes,No
+1714,75110,Upper Pittsgrove township,Salem,165,No,No,No,Yes,No
+1901,01330,Andover borough,Sussex,253,No,No,No,Yes,No
+1902,01360,Andover township,Sussex,298,No,No,No,Yes,No
+1903,07300,Branchville borough,Sussex,142,No,No,No,Yes,No
+1904,09160,Byram township,Sussex,388,No,No,No,Yes,No
+1905,24810,Frankford township,Sussex,269,No,No,No,Yes,No
+1907,25140,Fredon township,Sussex,362,No,No,No,Yes,No
+1908,27420,Green township,Sussex,413,No,No,No,Yes,No
+1909,29220,Hamburg borough,Sussex,210,No,No,No,Yes,No
+1910,29490,Hampton township,Sussex,292,No,No,No,Yes,No
+1911,29850,Hardyston township,Sussex,321,No,No,No,Yes,No
+1912,32910,Hopatcong borough,Sussex,318,No,No,No,Yes,No
+1913,37440,Lafayette township,Sussex,313,No,No,No,Yes,No
+1916,54660,Ogdensburg borough,Sussex,256,No,No,No,Yes,No
+1917,65700,Sandyston township,Sussex,297,No,No,No,Yes,No
+1918,69690,Sparta township,Sussex,461,No,No,No,Yes,No
+1919,70380,Stanhope borough,Sussex,304,No,No,No,Yes,No
+1920,70890,Stillwater township,Sussex,251,No,No,No,Yes,No
+1922,75740,Vernon township,Sussex,305,No,No,No,Yes,No
+1923,76640,Walpack township,Sussex,268,Yes,Yes,Yes,Yes,No
+1924,76790,Wantage township,Sussex,334,No,No,No,Yes,No
+2001,05320,Berkeley Heights township,Union,545,No,No,No,Yes,No
+2002,13150,Clark township,Union,398,No,No,No,No,No
+2003,15640,Cranford township,Union,481,No,No,No,No,No
+2005,22860,Fanwood borough,Union,528,No,No,No,No,No
+2006,25800,Garwood borough,Union,324,No,No,No,Yes,No
+2010,48510,Mountainside borough,Union,497,No,No,No,No,No
+2011,51810,New Providence borough,Union,531,No,No,No,No,No
+2015,64650,Roselle Park borough,Union,211,No,No,No,Yes,No
+2016,66060,Scotch Plains township,Union,488,No,No,No,No,No
+2017,70020,Springfield township,Union,425,No,No,No,No,No
+2018,71430,Summit city,Union,517,No,No,No,No,No
+2020,79040,Westfield town,Union,529,No,No,No,Yes,No
+2021,81650,Winfield township,Union,86,No,No,No,Yes,No
+2101,00670,Allamuchy township,Warren,415,No,No,No,Yes,No
+2102,01030,Alpha borough,Warren,173,No,No,No,Yes,No
+2104,06160,Blairstown township,Warren,341,No,No,No,Yes,No
+2105,24960,Franklin township,Warren,325,No,No,No,Yes,No
+2106,25320,Frelinghuysen township,Warren,356,No,No,No,Yes,No
+2107,28260,Greenwich township,Warren,406,No,No,No,Yes,No
+2109,29820,Hardwick township,Warren,243,No,No,No,Yes,No
+2110,30090,Harmony township,Warren,270,No,No,No,Yes,No
+2111,33060,Hope township,Warren,352,No,No,No,Yes,No
+2112,33930,Independence township,Warren,309,No,No,No,Yes,No
+2113,37320,Knowlton township,Warren,227,No,No,No,Yes,No
+2114,40110,Liberty township,Warren,363,No,No,No,Yes,No
+2116,43320,Mansfield township,Warren,244,No,No,No,Yes,No
+2117,55530,Oxford township,Warren,189,No,No,No,Yes,No
+2120,59820,Pohatcong township,Warren,239,No,No,No,Yes,No
+2122,77300,Washington township,Warren,359,No,No,No,Yes,No
+2123,80570,White township,Warren,240,No,No,No,Yes,No
