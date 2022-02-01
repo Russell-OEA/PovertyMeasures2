@@ -1,0 +1,33 @@
+---
+title: "Affordability Comparisons for Municipalities and Water Systems"
+author: "NJDEP Office of Economic Analysis"
+date: "1/19/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("./Poverty_Measures_Calculations.R")
+```
+
+
+
+## Methodology
+
+### Clean Water Affordability Criteria
+
+Source: https://www.nj.gov/dep/dwq/pdf/NJWB_FFY21-SFY22_CW_Final_IUP_FinalAmendments.pdf#page=24
+
+
+
+
+## Full Table
+
+
+```{r full_table, echo=FALSE}
+knitr::kable(
+  head(Poverty_Data_Final[, 1:10], 10), "simple",
+  caption = 'test'
+)
+```
+

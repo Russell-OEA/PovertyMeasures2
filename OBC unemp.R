@@ -1,21 +1,19 @@
-# -------------------------------------------
-# Calculates lists of communities meeting different affordable thresholds. 
-# Project for water group
-# Last Updated: 12/17/2021
-# Contact: Mike Russell, Michael.Russell@dep.nj.gov
-# -------------------------------------------
+### -------------------------------------------
+### Calculates lists of communities meeting different affordable thresholds. 
+### Project for water group
+### Last Updated: 12/17/2021
+### Contact: Mike Russell, Michael.Russell@dep.nj.gov
+### -------------------------------------------
 
 # Set to working directory ----------------------------
 setwd("~/R/Projects/PovertyMeasures2") # Change as needed
 
-# Load libraries ----------------------------
-# -------------------------------------------
+### Load libraries ----------------------------
+### -------------------------------------------
 
 library(tidyverse)
 library(readr)
 library(readxl)
-library(knitr)
-library(ezknitr)
 
 # Create column names for MRI dataset
 MRI_columns <- c("CODE", 
@@ -56,35 +54,36 @@ MRI_columns <- c("CODE",
                  "PerCapitaValuation_Index",
                  "PerCapitaValuation_Value",
                  "Urban_Aid")
-                 
 
-# ------------------------------------------------------------------- 
-# Download source files from web ------------------------------------ 
-# (Uncomment below if files are not already in the working directory) 
-# -------------------------------------------------------------------
-# NOTE: For the OBC list, you will need to download the file manually ----
-# from here: https://www.nj.gov/dep/ej/docs/overburdenedcommunitylist.xlsx 
-# and resave as a CSV in the working directory. --------------------------
-# ------------------------------------------------------------------------
-# NOTE: For the MRI list, you will need to download the file manually ----
-# from here: https://www.nj.gov/dca/home/2020_MRI_Scores_and_Rankings.xlsx 
-# and move the file to the working directory. ----------------------------
-# --------------------------------------------------------------------------------------------------
-# NOTE: For the HMI list, you will need to download the file manually ------------------------------
-# from here: https://www.hudexchange.info/sites/onecpd/assets/File/ACS_2015_lowmod_localgov_all.xlsx 
-# and resave as a CSV in the working directory. ----------------------------------------------------
-# --------------------------------------------------------------------------------------------------
+
+### ------------------------------------------------------------------- ###
+### Download source files from web ------------------------------------ ###
+### (Uncomment below if files are not already in the working directory) ###
+### ------------------------------------------------------------------- ###
+### NOTE: For the OBC list, you will need to download the file manually ---- ###
+### from here: https://www.nj.gov/dep/ej/docs/overburdenedcommunitylist.xlsx ###
+### and resave as a CSV in the working directory. -------------------------- ###
+### ------------------------------------------------------------------------ ###
+### NOTE: For the MRI list, you will need to download the file manually ---- ###
+### from here: https://www.nj.gov/dca/home/2020_MRI_Scores_and_Rankings.xlsx ###
+### and move the file to the working directory. ---------------------------- ###
+### -------------------------------------------------------------------------------------------------- ###
+### NOTE: For the HMI list, you will need to download the file manually ------------------------------ ###
+### from here: https://www.hudexchange.info/sites/onecpd/assets/File/ACS_2015_lowmod_localgov_all.xlsx ###
+### and resave as a CSV in the working directory. ---------------------------------------------------- ###
+### -------------------------------------------------------------------------------------------------- ###
 
 
 # DO NOT USE download.file("https://www.nj.gov/dca/home/2020_MRI_Scores_and_Rankings.xlsx", "./2020_MRI_Scores_and_Rankings.xlsx")
 # DO NOT USE download.file("https://www.hudexchange.info/sites/onecpd/assets/File/ACS_2015_lowmod_localgov_all.xlsx", "./ACS_2015_lowmod_localgov_all.xlsx")
-#download.file("https://raw.githubusercontent.com/Russell-OEA/NJ-Muni_Code_Crosswalk/main/Muni_Code_Crosswalk.csv", "./Muni_Code_Crosswalk.csv")
-#download.file("https://raw.githubusercontent.com/Russell-OEA/NJ_County_Unemployment/main/NJ_County_Unemp.csv", "./NJ_County_Unemp.csv")
+download.file("https://raw.githubusercontent.com/Russell-OEA/NJ-Muni_Code_Crosswalk/main/Muni_Code_Crosswalk.csv", "./Muni_Code_Crosswalk.csv")
+download.file("https://raw.githubusercontent.com/Russell-OEA/NJ_County_Unemployment/main/NJ_County_Unemp_2019.csv", "./NJ_County_Unemp.csv")
 
 
-# ---------------------------------
-# Import data from outside sources 
-# --------------------------------
+
+### ---------------------------------###
+### Import data from outside sources ###
+### ---------------------------------###
 
 # MRI: 
 # Source: https://www.nj.gov/dca/home/MuniRevitIndex.html
@@ -106,7 +105,7 @@ remove(MRI_columns) # removes column names from working environment after they'v
 # LMI 
 # Source: https://www.hudexchange.info/programs/acs-low-mod-summary-data/acs-low-mod-summary-data-local-government/
 LMI_data <- read_csv("ACS_2015_lowmod_localgov_all.csv", #imports file
-                                         col_types = cols(LOWMOD_PCT = col_number())) #sets percent column to numeric
+                     col_types = cols(LOWMOD_PCT = col_number())) #sets percent column to numeric
 # County Unemployment Rates
 # Source: https://www.nj.gov/labor/lpa/employ/uirate/fmth_2010-2020.xlsx
 # CSV available at: 
@@ -126,7 +125,7 @@ Muni_Code_Crosswalk <- read_csv("Muni_Code_Crosswalk.csv")
 # Source: https://www.census.gov/quickfacts/NJ
 NJ_MHI <- 82545
 
-Clean_water_data <- read_csv("PCWS_w_Muni.csv")
+
 
 # Clean data
 MRI_data <- 
@@ -141,36 +140,30 @@ MRI_data$Unemp_Value <- MRI_data$Unemp_Value * 100
 LMI_data <- 
   LMI_data %>%
   filter(STATE == 34, # Filters out all non-NJ states
-  !is.na(COUSUB)) %>% # Filters out all places and leaves COUSUB entries only
+         !is.na(COUSUB)) %>% # Filters out all places and leaves COUSUB entries only
   select(NAME, COUSUB, LOWMOD_PCT)
-                         
+
 Muni_Code_Crosswalk <- rename(Muni_Code_Crosswalk, COUSUB = MCD) # Rename header for MCD to align with LMI_data
 Muni_Code_Crosswalk <- 
   Muni_Code_Crosswalk %>% 
   filter(!is.na(CODE)) %>% # Removes Counties and CDPs
   select("AREA NAME", COUSUB, CODE, CNTY)
 
-OBC_Data <- rename(OBC_Data, CODE = "Municipality Code")
-OBC_Data <- rename(OBC_Data, OBC_Type = "Overburdened Community Criteria")
-OBC_Data <- 
-  OBC_Data %>% 
-  select(CODE, OBC_Type)
-OBC_Data <- filter(
-    OBC_Data, str_detect(OBC_Data$OBC_Type, "Low Income") == TRUE
-    )
-OBC_Data <- distinct(OBC_Data, CODE, .keep_all = TRUE)
+OBC_Data2 <- rename(OBC_Data, CODE = "Municipality Code")
+OBC_Data2 <- rename(OBC_Data2, OBC_Type = "Overburdened Community Criteria")
+OBC_Data2 <- 
+  OBC_Data2 %>% 
+  select(CODE, OBC_Type, Municipality)
+#OBC_Data <- filter(
+#  OBC_Data, str_detect(OBC_Data$OBC_Type, "Low Income") == TRUE
+#)
+OBC_Data2 <- distinct(OBC_Data2, CODE, .keep_all = TRUE)
 
-Clean_water_data <- rename(Clean_water_data, CODE = "MUN_CODE")
-Clean_water_data <- 
-  Clean_water_data %>%
-  select(PI_ID, PWID, SYS_NAME, AREA_TYPE, POP2010, POPDEN2010, CODE, NAME)
-
-###########
 
 Poverty_data <- full_join(Muni_Code_Crosswalk, MRI_data, by = "CODE") # merge MRI data with crosswalk table
 Poverty_data <- full_join(Poverty_data, LMI_data, by = "COUSUB") # merge with LMI table
 Poverty_data <- full_join(Poverty_data, NJ_County_Unemp, by = "CNTY") # merge with county unemployment data
-Poverty_data <- right_join(OBC_Data, Poverty_data, by = "CODE")
+Poverty_data <- right_join(OBC_Data2, Poverty_data, by = "CODE")
 
 ###########
 
@@ -182,54 +175,64 @@ Poverty_data <-
   mutate(Clean_threshold = if_else(MHI_Value < 90000 | Unemp_Value > 4 | PopChange_Value < 2, "Yes", "No")) %>% #Creates column using Clean Water's threshold
   mutate(OBC_threshold = if_else(!is.na(OBC_Type), "Yes", "No"))
 
-####
 
-Poverty_Data_Final <- Poverty_data %>% select(CODE, COUSUB, Muni, County, MRI_Rank, LMI_60_Percent, LMI_51_Percent, Drinking_threshold, Clean_threshold, OBC_threshold)
-
-write_csv(Poverty_Data_Final, "./Poverty_Data_Final.csv")
 
 ####
 
-Clean_water_data <- full_join(Clean_water_data, Poverty_Data_Final, by = "CODE")
+Poverty_Data_Final <- Poverty_data %>% select(CODE, COUSUB, Muni, County.x, MRI_Rank, LMI_51_Percent, OBC_threshold, Unemp_Value)
 
-Munis_without_WS_data <-
-  Clean_water_data %>%
-  filter(is.na(PWID)) %>%
-  select(CODE, COUSUB, Muni, County, MRI_Rank, LMI_60_Percent, LMI_51_Percent, Drinking_threshold, Clean_threshold, OBC_threshold)
-
-Clean_water_data <- 
-  Clean_water_data %>%
-  filter(!is.na(PWID)) %>%
-  select(PI_ID, PWID, SYS_NAME, AREA_TYPE, POP2010, POPDEN2010, CODE, COUSUB, Muni, County, MRI_Rank, LMI_60_Percent, LMI_51_Percent, Drinking_threshold, Clean_threshold, OBC_threshold)
-
-# Clean_water_data %>%
-#  group_by(PWID, Clean_threshold) %>%
-#  summarize(sum(POP2010)) %>%
-#  mutate(percent = pop2010 / sum(POP2010))
-
-# test <- Clean_water_data %>%
-#   group_by(PWID, Clean_threshold) %>%
-#   mutate(percent = prop.table(POP2010))
+# p <- ggplot() 
 # 
-# test3 <- 
-#   Clean_water_data %>%
-#   group_by(SYS_NAME, Clean_threshold) %>%
-#   summarise(Agg_Pop = sum(POP2010))
+# #p <- p + geom_histogram(data = Poverty_Data_Final, aes(x = Unemp_Value, y = ..count.., 
+#                                                   color = OBC_threshold, fill = OBC_threshold),
+#                         stat = "bin", bins = 15, size = 1, alpha = 0.7, position = "identity")
+# 
+# p <- p + geom_density_ridges(data = Poverty_Data_Final, aes(x = Unemp_Value, y = OBC_threshold, 
+#                                                        fill = OBC_threshold),
+#                              color = "white")
+# 
+# 
+# p
+#  
+#  # p <- p + geom_boxplot()
+# 
+# Poverty_data %>% 
+#   mutate(bin = cut(Unemp_Value, breaks = c(Inf, 1, 2, 3, 4, 5))) %>%
+#   # count(bin) %>%
+#   group_by(OBC_threshold, bin)  %>%
+#   summarize() 
+# 
+# 
+# p <- geom_histogram()
+#  
+# p
+# 
+# State_ave <- mean(Poverty_data$Unemp_Value)
 
-#' ## Basics
-#' - Any line that starts with `#'` is treated as Markdown. 
-#' - Any line that starts with `#+` is treated as a code chunk. Code chunks are how code
-#' and text are integrated in R Markdown. You can specify options like `echo = FALSE` as you
-#' would in an R Markdown code chunk.
-#' 
-#' 
-#' ## Example "analysis"
-#' A quick example to show how the code and text integrate. The `gapminder` data is
-#'  available as a package so you should be able to reproduce this file by just hitting 
-#'  "compile notebook" in RStudio. 
+Poverty_data %>%
+  #group_by(OBC_threshold) %>%
+  #summarise(Unemp_Value > State_ave) %>%
+  count(Unemp_Value > ANN_AV_UNEMP_RATE, OBC_threshold)
 
-# test <- kable(Poverty_Data_Final)
-# kable(
-#   head(Poverty_Data_Final[, 1:10]), "simple",
-#   caption = 'test'
-# )
+OBC_County <- Poverty_data %>%
+  #group_by(OBC_threshold) %>%
+  #summarise(Unemp_Value > State_ave) %>%
+  count(County, OBC_threshold)
+
+
+p <- ggplot(data = Poverty_data,
+            mapping = aes(x = reorder(County, Unemp_Value, na.rm=TRUE),
+                          y = Unemp_Value, color = OBC_threshold))
+p + geom_point(size = 2) +
+  facet_wrap(~ Unemp_Value > ANN_AV_UNEMP_RATE, ncol = 1) +
+  geom_jitter() + labs(NULL) + 
+  coord_flip() + theme(legend.position = "top")
+
+
+q <- ggplot(data = Poverty_data,
+            mapping = aes(x = reorder(County, Unemp_Value, na.rm=TRUE),
+                          y = Unemp_Value, color = Unemp_Value > ANN_AV_UNEMP_RATE))
+q + geom_point(size = 2) +
+  facet_wrap(~ OBC_threshold, ncol = 1) +
+  geom_jitter() + labs(NULL) + 
+  coord_flip() + theme(legend.position = "top")
