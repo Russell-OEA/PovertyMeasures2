@@ -18,7 +18,29 @@ source("./Poverty_Measures_Calculations.R")
 
 Source: https://www.nj.gov/dep/dwq/pdf/NJWB_FFY21-SFY22_CW_Final_IUP_FinalAmendments.pdf#page=24
 
+Text from page 32: 
 
+Section 603(i)(2) of WRRDA requires States to develop affordability criteria that will assist in identifying
+applicants that would have difficulty financing projects without additional subsidization. The law requires
+that states establish affordability criteria by September 30, 2015, after providing notice and an opportunity
+for public comment, which is being accomplished through this new feature of NJ’s CW Intended Use Plan.
+
+Section 603(i)(2)(A) of WRRDA requires that states base their criteria on:
+
+*  income;
+*  unemployment data;
+*  population trends; and
+*  other data determined relevant by the State.
+
+In New Jersey, those applicants where the following income, unemployment data, and population trends
+exist, based upon the sources below for each factor, are considered to have satisfied the State’s CWSRF
+affordability criteria:
+
+* Median household income of $90,000 or less;
+* County-wide unemployment of 5% or higher; and
+* Population trend of 2% or lower.
+
+Applicants that do not meet the specifications above do not meet the State’s CWSRF Affordability Criteria
 
 
 ## Full Table
@@ -31,3 +53,5 @@ knitr::kable(
 )
 ```
 
+```{r clean_table, echo=FALSE}
+kbl()
