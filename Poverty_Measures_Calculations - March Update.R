@@ -1,12 +1,12 @@
 # -------------------------------------------
 # Calculates lists of communities meeting different affordable thresholds. 
 # Project for water group
-# Last Updated: 12/17/2021
+# Last Updated: 05/16/2022
 # Contact: Mike Russell, Michael.Russell@dep.nj.gov
 # -------------------------------------------
 
 # Set to working directory ----------------------------
-setwd("~/R/Projects/PovertyMeasures2") # Change as needed
+#setwd("~/R/Projects/PovertyMeasures2") # Change as needed
 
 # Load libraries ----------------------------
 # -------------------------------------------

@@ -1,0 +1,44 @@
+---
+title: "Water System affordability Criteria"
+author: "Office of Economic Analysis"
+date: '2022-05-16'
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("Revised_Water_System_Code_05162022.R")
+source("External_Tables.R")
+```
+
+## Variables
+
+### MHI_Percent_State 
+
+The municipal median household income (MHI) as a percent of New Jersey's MHI, rounded to the nearest hundredth. Municipal values used are those found in the 2020 Municipal Revitalization Index. These values represent the MHI in 2019 as provided by the Department of Community Affairs. The statewide MHI used in the comparison was $`r as.numeric(NJ_MHI)`
+
+
+
+
+
+\newpage
+
+Hunterdon
+
+```{r test , echo = FALSE}
+ kable(table.Hunterdon_external, col.names = column_names_external)
+```
+
+\newpage
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
